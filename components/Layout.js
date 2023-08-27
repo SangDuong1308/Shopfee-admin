@@ -36,7 +36,7 @@ export default function Layout({children}) {
   }
 
   return (
-    <div className="bg-dk-gray-800 min-h-screen">
+    <div className="bg-colorset1 min-h-screen">
       <div className="block md:hidden flex items-center p-4">
         <div className={activeLink}>
           <button onClick={() => setShowNav(true)}>
@@ -67,7 +67,7 @@ export default function Layout({children}) {
 
       <div className="flex text-base">
         <Nav show={showNav} />
-        <div className="bg-dk-dark-bg p-4 flex-grow">{children}</div>
+        <div className="bg-colorset1 p-4 flex-grow">{children}</div>
       </div>
     </div>
   );

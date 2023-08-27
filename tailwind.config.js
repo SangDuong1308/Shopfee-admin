@@ -19,7 +19,8 @@ module.exports = {
         primary: '#5542F6',
         highlight: '#eae8fb',
         bgGray: '#fbfafd',
-      },
+      }
+     
     },
     colors: {
       "dk-gray-100": "#F3F4F6",
@@ -44,7 +45,18 @@ module.exports = {
       "violet-800"	: "rgb(91 33 182)",
       "violet-900"	: "rgb(76 29 149)",
       "violet-950"	: "rgb(46 16 101)",
-      "pale-green" : "#98fb98"
+      "pale-red" : "#FF9494",
+      "colorset1" : "#FEFCF3",
+      "colorset2" : "#D8C3A5",
+      "colorset3" : "#8E8D8A",
+      "colorset4" : "#E98074",
+      "colorset5" : "#E85A4F",
+      "colorset4-1" : "#EFCDCD",
+      "colorset4-2" : "#FFD1D1",
+      "colorset4-3" : "#FCD8D4",
+      "colorset4-4" : "#FF9292",
+      "colorset4-5" : "#FFB4B4",
+      "red" : "#FF0000"
     },
   },
   plugins: [],

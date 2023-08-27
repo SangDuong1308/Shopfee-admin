@@ -13,7 +13,7 @@ export default function Logo() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-7 h-7"
         >
           <path
             strokeLinecap="round"
@@ -23,7 +23,7 @@ export default function Logo() {
         </svg>
 
         {/* <span className="text-dk-gray-200 text-xl m-1 ">USCoffee</span> */}
-        <span className="text-xl">Shopfee</span>
+        <span className="text-2xl ">Shopfee</span>
       </Link>
       //   {/* <Link href={"/"} className="flex gap-1 ">
       //       <span className="p-2 justify-end ">Admin</span>

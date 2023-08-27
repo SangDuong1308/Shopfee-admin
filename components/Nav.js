@@ -5,14 +5,14 @@ import Logo from "@/components/Logo";
 
 export default function Nav({show}) {
   const inactiveLink =
-    "flex gap-1 p-3 hover:bg-dk-dark-bg rounded-l-lg hover:text-dk-gray-100 ease-linear duration-300";
+    "flex gap-1 p-3 hover:bg-colorset4-2 rounded-lg hover:text-black ease-linear duration-300";
 
   const activeLink =
     inactiveLink +
-    " text-dk-gray-100 bg-dk-dark-bg border-l-4 border-violet-600 trans rounded-md";
+    " text-dk-black bg-colorset4-3 border-l-4 border-colorset4 trans rounded-md";
 
   const inactiveIcon = "w-6 h-6";
-  const activeIcon = inactiveIcon + " text-pale-green";
+  const activeIcon = inactiveIcon + " text-pale-red";
 
   const router = useRouter();
   //console.log({router});
@@ -25,8 +25,8 @@ export default function Nav({show}) {
 
   return (
     // <aside className="font-sans text-dk-gray-300 d-flex justify-content-center align-items-center px-3 py-4 pr-0">
-    <aside className={(show?'left-0':'-left-full') + " top-0 font-sans text-dk-gray-300 p-4 fixed w-full bg-sidebar-bg-color h-full md:static md:w-auto transition-all"}>
-      <div className="mb-4 mr-4 ml-2">
+    <aside className={(show?'left-0':'-left-full') + " top-0 font-sans text-black p-4 fixed w-full bg-colorset1 h-full md:static md:w-auto transition-all"}>
+      <div className="mb-10 mr-6 ml-2 mt-4">
         <Logo />
       </div>
 
