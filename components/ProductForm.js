@@ -183,7 +183,7 @@ export default function ProductForm({
       <label>Price</label>
       <input
         type="text"
-        placeholder=" VND"
+        placeholder=" USD"
         value={price}
         onChange={(ev) => setPrice(ev.target.value)}
       />

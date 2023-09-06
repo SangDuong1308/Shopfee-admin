@@ -34,7 +34,8 @@ table.basic{
 table.basic tr td{
     @apply  p-2 border-b-2 border-white;
 }
-table.basic thead tr td{
+table.basic thead tr td,
+table.basic thead tr th,{
     @apply border-b-2 border-colorset5 p-2 font-medium;
 }
 
@@ -58,3 +59,4 @@ table.basic thead tr td{
 .btn-default{
     @apply bg-white text-dk-gray-900 px-4 py-1 rounded-lg border border-colorset4-5 shadow-sm;
 }
+  
